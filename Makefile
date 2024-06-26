@@ -9,8 +9,6 @@ AUX = $(STEM).aux
 
 $(TARGET): $(SRC)
 	$(TEX) $(SRC)
-	$(BIB) $(AUX)
-	$(TEX) $(SRC)
 	$(TEX) $(SRC)
 
 .PHONY: clean

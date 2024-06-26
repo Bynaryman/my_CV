@@ -6,7 +6,7 @@
 \usepackage[utf8]{inputenc}  % replace by the encoding you are using
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.85]{geometry}
 
 % A package that works with modern CV package
 % https://ctan.javinator9889.com/macros/latex/contrib/moderntimeline/moderntimeline.pdf
@@ -43,7 +43,10 @@
 \begin{document}
 \makecvtitle
 
-
+\section{Research Interests}
+\cvline{Computer Architecture}{Floating-Point Unit, Systolic Arrays, GPUs, FPGAs}
+\cvline{Computer Arithmetic}{Number Representations, Application-Specific circuits, FloPoCo, Posit \& IEEE754, Kulisch Accumulator, accuracy and energy budgeting}
+\cvline{High Performance Computing}{BLAS, Dense Matrix-Matrix Multiplications, Heterogeneous Workloads, Numerical Analysis, Supercomputing}
 
 \section{Education}
 \tlcventry{2018}{0}{PhD Student}{\href{https://www.upc.edu/ca}{Universitat Politècnica de Catalunya (UPC)}}{Barcelona}{}
@@ -110,26 +113,30 @@ Three years to obtain the engineer diploma certified by the CTI (Comit\'e des Ti
         \end{itemize}
     }
 \section{Peer-reviewed Conference Papers}
-\begin{itemize}
-    \item \cite{sample2021}
-    \item \cite{samplebook2022}
-\end{itemize}
+\cvline{[LC23a]}{\textbf{L. Ledoux} and M. Casas, “An Open-Source Framework for Efficient Numerically-Tailored Computations,” in 2023 33rd International Conference on Field-Programmable Logic and Applications (FPL), Sep. 2023, pp. 19–26. \textit{\url{doi: 10.1109/FPL60245.2023.00011}}}
+
+\cvline{[LC22]}{\textbf{L. Ledoux} and M. Casas, “A Generator of Numerically-Tailored and High-Throughput Accelerators for Batched GEMMs,” in 2022 IEEE 30th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM), May 2022, pp. 1–10. \textit{\url{doi: 10.1109/FCCM53951.2022.9786164}}}
+
 
 \section{Poster Presentations}
-\begin{itemize}
-    \item \cite{sample2021}
-\end{itemize}
+\cvline{[LC24b]}{\textbf{L. Ledoux} and M. Casas, “LLMMMM: Large Language Models Matrix-Matrix Multiplications Characterization on Open Silicon” in 2024 11th BSCSymposium, May 2024, \textit{Available online soon.}}
+
+\cvline{[LC24a]}{\textbf{L. Ledoux} and M. Casas, “The Grafted Superset Approach: Bridging Python to Silicon with Asynchronous Compilation and Beyond” in 2024 4th Workshop on Open-Source Design Automation (OSDA), hosted at the International Conference on Design, Automation and Test in Europe Conference (DATE), March 25, 2024, at Palacio De Congresos Valencia (Valencia Conference Centre - VCC), Valencia, Spain. \textit{Available online soon.}}
+
+\cvline{[LC23b]}{\textbf{L. Ledoux} and M. Casas, “Open-Source GEMM Hardware Kernels Generator: Toward Numerically-Tailored Computations” in 2023 10th BSCSymposium, May 2023, \textit{Available: \url{https://arxiv.org/abs/2305.18328}}}
 
 \section{Invited Talks}
-\begin{itemize}
-    \item \cite{samplebook2022}
-\end{itemize}
+\cvline{[LC19]}{\textbf{L. Ledoux} and M. Casas, “Accelerating DL inference with (Open)CAPI and posit numbers,” in OpenPOWER summit 2019, Lyon, France: linux foundation, Oct. 2019. \textit{Available: \url{https://hal.science/hal-04094850}}}
 
-\bibliographystyle{apalike}
-\bibliography{publications}
-
+\section{Languages}
+\cvlanguage{French}{Native}{}
+\cvlanguage{Spanish}{Native}{(with an honest french accent)}
+\cvlanguage{English}{Full Proficiency}{}
 
 \section{Skills}
+\cvcomputer{category 1}{XX}{category 2}{YY}
+\cvcomputer{category 1}{XX}{category 2}{YY}
+\cvcomputer{category 1}{XX}{category 2}{YY}
 \cvitem{Programming}{Java, Python, C++}
 \cvitem{Languages}{English, Spanish}
 
