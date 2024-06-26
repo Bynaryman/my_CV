@@ -1,0 +1,13 @@
+\begin{thebibliography}{}
+
+\bibitem[Doe, 2021]{sample2021}
+Doe, J. (2021).
+\newblock Sample article.
+\newblock {\em Journal of Examples}, 1(1):1--2.
+
+\bibitem[Doe, 2022]{samplebook2022}
+Doe, J. (2022).
+\newblock {\em Sample Book}.
+\newblock Example Publisher.
+
+\end{thebibliography}

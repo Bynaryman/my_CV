@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic}      % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}         % color options are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[utf8]{inputenc}  % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% A package that works with modern CV package
+% https://ctan.javinator9889.com/macros/latex/contrib/moderntimeline/moderntimeline.pdf
+\usepackage{moderntimeline}
+% Set the scale.
+\tlmaxdates{2013}{2024}
+% Set the line width.
+% This automatically sets the space under the top label to be 1pt more
+\tlwidth{0.8ex}
+% Set the labels text size
+\tltext{\tiny}
+
+% personal data
+\name{LEDOUX}{Louis}
+\title{Curriculum Vitae}
+\born{26 February 1995}
+\address{}{Barcelona, 08014}{Spain}
+\phone[mobile]{+33~7~70~49~11~98}
+\email{i.flledoux@gmail.com}
+\homepage{https://bynaryman.github.io/}
+\social[linkedin]{ledoux-louis}
+\social[twitter]{@L0u1s73doux}
+\social[github]{Bynaryman}
+\social[orcid]{0009-0006-3643-2157}
+\social[googlescholar]{JWBIqG8AAAAJ}
+
+%\extrainfo{Something to say}
+\quote{``Post Hoc Ergo Propter Hoc''}
+
+\begin{document}
+\makecvtitle
+
+
+
+\section{Education}
+\tlcventry[blue]{2015}{2018}{Engineering School}{\href{https://esir.univ-rennes.fr/en/esir-preparatory-cycle}{ESIR}}{Universit\'e de Rennes}{}
+{
+Three years to obtain the engineer diploma certified by the CTI (Comit\'e des Titres d'Ing\'enieurs) and a Master (Magister) in computer sciences
+\begin{itemize}
+ \item ddd
+ \item DDD
+\end{itemize}
+}
+\tlcventry[blue]{2013}{2015}{Classe Pr\'eparatoire}{\href{https://esir.univ-rennes.fr/en/esir-preparatory-cycle}{CUPGE ESIR}}{Universit\'e de Rennes}{}
+{
+\begin{itemize}
+ \item 6/23 first year
+ \item 7/22 second year
+\end{itemize}
+}
+
+\section{Experience}
+
+    \tlcventry{2018}{0}{Researcher}{Barcelona Supercomputing Center (BSC)}{Barcelona}{}{
+	    researching..
+        \begin{itemize}
+            \item
+            \item \textbf{Keywords:} FPGA, Arith, ASIC
+        \end{itemize}
+    }
+
+    \tlcventry{2017}{2018}{FPGA as a Service Engineer}{b$\left\langle \right\rangle$com}{Rennes}{}{
+        \begin{itemize}
+            \item Coop student known as professionalization contract in French for my last study's year. One year of R\&D about Acceleration on FPGA on the cloud.
+            \item \textbf{Keywords:} SDAccel, OpenCL, Xilinx FPGA (ultrascale vu9p), VHDL, SystemVerilog, AWS F1 instances, linux driver, linux kernel, PCIe, C++1x, C, DMA, AaaS (Acceleration as a Service).
+        \end{itemize}
+    }
+
+    \tldatelabelcventry{2017}{July 2017}{Back End Developer}{WaryMe}{Rennes}{}{
+	    Summer Internship...
+        \begin{itemize}
+            \item Development of all the back end of a people security application.
+            \item \textbf{Keywords:} NodeJS, sqlite3, git, c++, C, Angular, TypeScript, https, let's encrypt, pm2, nginx, AWS, jenkins.
+        \end{itemize}
+    }
+
+    \tldatelabelcventry{2016}{July 2016}{Back End Developer}{ASKIA}{Paris 10\`eme}{}{
+	    Summer Internship...
+        \begin{itemize}
+            \item Development of a CLI tool which allows automated publication of surveys on well known platforms like Github or Zendesk.
+            \item \textbf{Keywords:} NodeJS, http, api rest, git, test driven development, asynchronous programming, jasmine framework, mocks.
+        \end{itemize}
+    }
+    \tldatelabelcventry{2014}{July 2014}{Electronics Technician}{Radio Electronique Rennaise (R.E.R)}{Rennes}{}{
+	    Summer Internship...
+        \begin{itemize}
+            \item
+            \item \textbf{Keywords:}
+        \end{itemize}
+    }
+\section{Peer-reviewed Conference Papers}
+\begin{itemize}
+    \item \cite{sample2021}
+    \item \cite{samplebook2022}
+\end{itemize}
+
+\section{Poster Presentations}
+\begin{itemize}
+    \item \cite{sample2021}
+\end{itemize}
+
+\section{Invited Talks}
+\begin{itemize}
+    \item \cite{samplebook2022}
+\end{itemize}
+
+\bibliographystyle{apalike}
+\bibliography{publications}
+
+
+\section{Skills}
+\cvitem{Programming}{Java, Python, C++}
+\cvitem{Languages}{English, Spanish}
+
+\end{document}
