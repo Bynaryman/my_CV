@@ -43,68 +43,92 @@
 \begin{document}
 \makecvtitle
 
+%\section{Research Interests}
+%\textbf{Computer Architecture}(Floating-Point Unit, Systolic Arrays, Matrix-Matrix Multiply (MMM) units, GPUs, FPGAs),
+%\textbf{Computer Arithmetic} (Number Representations, Application-Specific circuits, FloPoCo, Posit \& IEEE754, Kulisch Accumulator, accuracy and energy budgeting),
+%\textbf{High Performance Computing} (BLAS, Dense \& Sparse GEMMs, Heterogeneous Workloads, Numerical Analysis, Supercomputing).
+
 \section{Research Interests}
-\cvline{Computer Architecture}{Floating-Point Unit, Systolic Arrays, GPUs, FPGAs}
-\cvline{Computer Arithmetic}{Number Representations, Application-Specific circuits, FloPoCo, Posit \& IEEE754, Kulisch Accumulator, accuracy and energy budgeting}
-\cvline{High Performance Computing}{BLAS, Dense Matrix-Matrix Multiplications, Heterogeneous Workloads, Numerical Analysis, Supercomputing}
+
+\textbf{Computer Architecture:} Floating-Point Units, Systolic Arrays, Matrix-Matrix Multiply (MMM) Units, GPUs, FPGAs
+
+\textbf{Computer Arithmetic:} Number Representations, Application-Specific Circuits, FloPoCo, Posit \& IEEE754 Standards, Kulisch Accumulator, Accuracy and Energy Budgeting
+
+\textbf{High Performance Computing:} BLAS, Dense \& Sparse GEMMs, Heterogeneous Workloads, Numerical Analysis, Supercomputing
+
 
 \section{Education}
 \tlcventry{2018}{0}{PhD Student}{\href{https://www.upc.edu/ca}{Universitat Politècnica de Catalunya (UPC)}}{Barcelona}{}
 {
-Completing the PhD in Computer Arithmetic
-\begin{itemize}
- \item ddd
- \item DDD
-\end{itemize}
+Supervisor: Marc Casas Guix. Thesis title: ``Floating-Point Arithmetic Paradigms for High-Performance Computing: Software Algorithms and Hardware Designs''.
+%Co-working with UPC and BSC, I developped arithmetic tools for
 }
-\tlcventry{2015}{2018}{Engineering School}{\href{https://esir.univ-rennes.fr/en/esir-preparatory-cycle}{ESIR}}{Universit\'e de Rennes}{}
+
+\tlcventry{2015}{2018}{Engineering School}{\href{https://esir.univ-rennes.fr/en/esir-preparatory-cycle}{ESIR}}{Université de Rennes}{}
 {
-Three years to obtain the engineer diploma certified by the CTI (Comit\'e des Titres d'Ing\'enieurs) and a Master (Magister) in computer sciences
-\begin{itemize}
- \item ddd
- \item DDD
-\end{itemize}
+    Completed a three-year program culminating in an \textbf{Engineer diploma} certified by the CTI (Comité des Titres d'Ingénieurs) and a \textbf{Master's degree} (Magister) in Computer Science.
+    %The curriculum focused on \textit{Computer Architecture, Parallel Programming Models, GPU/CUDA Programming, High-Performance Computing, VLSI Hardware Design, Compilation, Language Theory, etc...}
 }
-\tlcventry{2013}{2015}{Classe Pr\'eparatoire}{\href{https://esir.univ-rennes.fr/en/esir-preparatory-cycle}{CUPGE ESIR}}{Universit\'e de Rennes}{}
+
+\tlcventry{2013}{2015}{Classe Préparatoire}{\href{https://esir.univ-rennes.fr/en/esir-preparatory-cycle}{CUPGE ESIR}}{Université de Rennes}{}
 {
-\begin{itemize}
- \item 6/23 first year
- \item 7/22 second year
-\end{itemize}
+    Intensive program with a strong emphasis on Mathematics and Computer Sciences.
 }
+
 
 \section{Experience}
 
-    \tlcventry{2018}{0}{Researcher}{Barcelona Supercomputing Center (BSC)}{Barcelona}{}{
-	    researching..
+    \tlcventry{2018}{0}{Researcher}{Barcelona Supercomputing Center (BSC) - RoMoL/CAOS/SONAR}{Barcelona}{}{
+        During The completion of my PhD I also worked as a researcher where I publisged peer-reviewed papers, travel to itnernational conferences.
         \begin{itemize}
-            \item
-            \item \textbf{Keywords:} FPGA, Arith, ASIC
+            \item Conducted research on hardware acceleration and optimization using FPGA and ASIC technologies.
+            \item Developed and implemented numerical algorithms tailored for FPGA-based computation.
+            \item Collaborated with a multidisciplinary team to enhance the performance of large-scale simulations.
+            \item \textbf{Keywords:} FPGA, Arithmetic, ASIC
         \end{itemize}
     }
 
-    \tlcventry{2017}{2018}{FPGA as a Service Engineer}{b$\left\langle \right\rangle$com}{Rennes}{}{
+
+    %\tlcventry{2017}{2018}{Hardware Engineer}{b$\left\langle \right\rangle$com}{Rennes}{}
+    %{
+    %    Coop student under a professionalization contract during my final year of study. Engaged in one year of R\&D focused on FPGA acceleration in the cloud, aiming to evaluate the feasibility of these novel solutions. Successfully integrated an IP (real-time SDR to HDR) to convert video from NVMe to NVMe through cloud FPGA. Developed the IP integration using HDLs, tweaked PCI-e drivers (EDMA and XDMA), and scheduled user processes asynchronously with OpenCL to overlap reads and writes, maximizing PCIe bandwidth to approximately 15.8 GB/s.
+    %    \textbf{Keywords:} SDAccel, OpenCL, Xilinx FPGA (Ultrascale VU9P), VHDL, SystemVerilog, AWS F1 instances, Linux driver, Linux kernel, PCIe, C++1x, C, DMA, AaaS (Acceleration as a Service), FaaS (FPGA as a Service), Virtual Machine, Docker, PCI-e virtual functions.
+    %}
+
+    \tlcventry{2017}{2018}{Hardware Engineer}{b$\left\langle \right\rangle$com}{Rennes}{}
+    {
+        Coop student under a professionalization contract during my final year of study. Engaged in one year of R\&D focused on FPGA acceleration in the cloud, aiming to evaluate the feasibility of these novel solutions.
         \begin{itemize}
-            \item Coop student known as professionalization contract in French for my last study's year. One year of R\&D about Acceleration on FPGA on the cloud.
-            \item \textbf{Keywords:} SDAccel, OpenCL, Xilinx FPGA (ultrascale vu9p), VHDL, SystemVerilog, AWS F1 instances, linux driver, linux kernel, PCIe, C++1x, C, DMA, AaaS (Acceleration as a Service).
+            \item Successfully integrated an IP (real-time SDR to HDR) to convert video from NVMe to NVMe through cloud FPGA.
+            \item Developed the IP integration using HDLs and tweaked PCI-e drivers (EDMA and XDMA).
+            \item Scheduled user processes asynchronously with OpenCL to overlap reads and writes, successfully saturating PCIe bandwidth ($\approx$15.8 GB/s).
+            \item \color{blue} Traveled to https://www.xilinx.com/video/events/xdf-frankfurt-2018-keynote.htm https://www.xilinx.com/video/events/xdf-frankfurt-2018-keynote.htmll
         \end{itemize}
+        \textbf{Keywords:} SDAccel, OpenCL, Xilinx FPGA (Ultrascale VU9P), VHDL, SystemVerilog, AWS F1 instances, Linux driver, Linux kernel, PCIe, C++1x, C, DMA, AaaS (Acceleration as a Service), FaaS (FPGA as a Service), Virtual Machine, Docker, PCI-e virtual functions.
     }
 
-    \tldatelabelcventry{2017}{July 2017}{Back End Developer}{WaryMe}{Rennes}{}{
-	    Summer Internship...
+
+    \tldatelabelcventry{2017}{July 2017}{Back End Developer}{WaryMe}{Rennes}{}
+    {
+        Summer internship focused on developing the entire back end of a people security application.
         \begin{itemize}
-            \item Development of all the back end of a people security application.
-            \item \textbf{Keywords:} NodeJS, sqlite3, git, c++, C, Angular, TypeScript, https, let's encrypt, pm2, nginx, AWS, jenkins.
+            \item Designed and implemented backend services and APIs.
+            \item Ensured secure data transmission using HTTPS and Let's Encrypt.
+            \item Deployed and managed the application on AWS with PM2 and Nginx.
+            \item Automated deployment processes with Jenkins.
+            \item Collaborated with front-end developers using Angular and TypeScript.
         \end{itemize}
+        \textbf{Keywords:} Node.js, SQLite3, Git, C++, C, Angular, TypeScript, HTTPS, Let's Encrypt, PM2, Nginx, AWS, Jenkins.
     }
 
-    \tldatelabelcventry{2016}{July 2016}{Back End Developer}{ASKIA}{Paris 10\`eme}{}{
-	    Summer Internship...
-        \begin{itemize}
-            \item Development of a CLI tool which allows automated publication of surveys on well known platforms like Github or Zendesk.
-            \item \textbf{Keywords:} NodeJS, http, api rest, git, test driven development, asynchronous programming, jasmine framework, mocks.
-        \end{itemize}
+
+    \tldatelabelcventry{2016}{July 2016}{Back End Developer}{ASKIA}{Paris 10\`eme}{}
+    {
+        During this summer internship, I developed an automated CLI tool for publishing surveys on popular platforms like GitHub and Zendesk. 
+        \textbf{Key Concepts:} Node.js, HTTP(S), REST API, Git, Test-Driven Development (TDD), Event/Asynchronous Programming, Jasmine Framework, Mocks, Stubs.
     }
+
+
     \tldatelabelcventry{2014}{July 2014}{Electronics Technician}{Radio Electronique Rennaise (R.E.R)}{Rennes}{}{
 	    Summer Internship...
         \begin{itemize}
@@ -125,6 +149,10 @@ Three years to obtain the engineer diploma certified by the CTI (Comit\'e des Ti
 \section{Invited Talks}
 \cvline{[LC19]}{\textbf{L. Ledoux} and M. Casas, “Accelerating DL inference with (Open)CAPI and posit numbers,” in \textit{\href{https://events19.linuxfoundation.org/events/openpower-summit-eu-2019/}{OpenPOWER Summit 2019}}, Lyon, France: Linux Foundation, Oct. 2019. \textit{Available: \href{https://hal.science/hal-04094850}{HAL:04094850}}}
 
+\section{Miscelaneous}
+\cvitem{ACM Summerschool}{attended }
+\cvitem{Yale Patt}{attended anniversayr + yearly class}
+\cvitem{Xilinx AI PAris}{}
 
 \section{Languages}
 \cvlanguage{French}{Native}{}
@@ -132,10 +160,8 @@ Three years to obtain the engineer diploma certified by the CTI (Comit\'e des Ti
 \cvlanguage{English}{Full Proficiency}{}
 
 \section{Skills}
-\cvcomputer{category 1}{XX}{category 2}{YY}
-\cvcomputer{category 1}{XX}{category 2}{YY}
-\cvcomputer{category 1}{XX}{category 2}{YY}
-\cvitem{Programming}{Java, Python, C++}
-\cvitem{Languages}{English, Spanish}
+\cvcomputer{Scripting}{Python, bash, sh, Linux}{Dissemination}{\LaTeX{}, Matplotlib, Inkscape}
+\cvcomputer{FPGA}{AMD, ALtera, VHDL, Verilog, SystemVerilog, FloPoCo, SDAccel, AWS f1, PCI-e}{GPU}{CUDA 8,9, OpenCL}
+\cvcomputer{Programming}{C, C++, Java, Scala}{Versioning}{git, github,gitlab, svn, recurrent pull requests}
 
 \end{document}

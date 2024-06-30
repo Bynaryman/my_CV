@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1719585269.83109 "d:/Documents/perso/my_CV/my_cv.tex" "my_cv.pdf" "my_cv" 1719585271.18268 0
-  "d:/Documents/perso/my_CV/my_cv.tex" 1719585267 7844 77fb7d5e9e070d9594a4fb5685d3791b ""
+["pdflatex"] 1719734286.38706 "d:/Documents/perso/my_CV/my_cv.tex" "my_cv.pdf" "my_cv" 1719734287.87072 0
+  "d:/Documents/perso/my_CV/my_cv.tex" 1719734285 11353 4e9a7ae5d3a9396201b0a95adec03d85 ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1719580409 2920 d63721872b8c77041b88e51b8f7c291d ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1719580409 2608 3139db8e1f9371a4f87c0715d17fa217 ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1719580409 3083 a707712f77b073b3833e4b1334a30e99 ""
@@ -34,6 +34,7 @@
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1719579219 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1719579219 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1719579219 32734 69e00a6b65cedb993666e42eedb3d48f ""
+  "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1719579219 32762 7fee39e011c23b3589931effd97b9702 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1719579219 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb" 1719579219 34586 5a65dc15601f9c74fe3fb3f37b3b8b6f ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1719579219 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -189,9 +190,9 @@
   "d:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1719583349 8239263 aef577088ade6044578e385ab9651857 ""
   "d:/texlive/2024/texmf.cnf" 1719583160 713 e69b156964470283e0530f5060668171 ""
   "louis2.jpg" 1719578609 31658 86e404dc74f1a1ea368b93d1d733cd25 ""
-  "my_cv.aux" 1719585271 985 6de33f89e6692b85c3a60714ab48b293 "pdflatex"
-  "my_cv.out" 1719585271 939 1f1f0714c925000c7c6cb5ed5ee6a858 "pdflatex"
-  "my_cv.tex" 1719585267 7844 77fb7d5e9e070d9594a4fb5685d3791b ""
+  "my_cv.aux" 1719734287 1080 ef51413795cec2ae1ee193abf83506b2 "pdflatex"
+  "my_cv.out" 1719734287 1042 e98eaa6293f103439b894c04e201ad08 "pdflatex"
+  "my_cv.tex" 1719734285 11353 4e9a7ae5d3a9396201b0a95adec03d85 ""
   (generated)
   "my_cv.aux"
   "my_cv.log"

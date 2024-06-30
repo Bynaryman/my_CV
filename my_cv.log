@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.28)  28 JUN 2024 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.28)  30 JUN 2024 09:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -646,7 +646,7 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on 
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 44.
 \makecvheadpicturebox=\box71
-<louis2.jpg, id=47, 401.5pt x 558.085pt>
+<louis2.jpg, id=51, 401.5pt x 558.085pt>
 File: louis2.jpg Graphic file (type jpg)
 <use louis2.jpg>
 Package pdftex.def Info: louis2.jpg  used on input line 44.
@@ -668,13 +668,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \fullcolorwidth=\dimen277
 \fullcolorwidth=\dimen278
 
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]\OT1/cmr/m/n/10 (+20) Traveled to https://www.xilinx.com/video/events/xdf-frankfurt-2018-keynote.htm
+ []
+
+
 
 [1
 
 {d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{d:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc} <./louis2.jpg>]
 
 [2]
-Overfull \hbox (0.9975pt too wide) in paragraph at lines 138--138
+Overfull \hbox (3.14368pt too wide) in paragraph at lines 163--163
+ [][]\OT1/cmr/m/n/10.95 (-20) Dissemination[]
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 164--164
+[]\OT1/cmr/m/n/10 (+20) AMD, AL-tera, VHDL, Ver-ilog, Sys-
+ []
+
+
+Overfull \hbox (0.9975pt too wide) in paragraph at lines 165--165
  []|[]\OT1/cmr/m/n/10.95 (-20) Programming[]|
  []
 
@@ -691,21 +706,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
 Package rerunfilecheck Info: File `my_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 1F1F0714C925000C7C6CB5ED5EE6A858;939.
+(rerunfilecheck)             Checksum: E98EAA6293F103439B894C04E201AD08;1042.
  ) 
 Here is how much of TeX's memory you used:
- 26228 strings out of 473584
- 501831 string characters out of 5732363
- 1967908 words of memory out of 5000000
- 48595 multiletter control sequences out of 15000+600000
- 570290 words of font info for 115 fonts, out of 8000000 for 9000
+ 26242 strings out of 473584
+ 501947 string characters out of 5732363
+ 1960908 words of memory out of 5000000
+ 48596 multiletter control sequences out of 15000+600000
+ 570614 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,16n,129p,1027b,787s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on my_cv.pdf (3 pages, 248879 bytes).
+<d:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on my_cv.pdf (3 pages, 261580 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 12 named destinations out of 1000 (max. 500000)
- 36952 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
+ 36960 words of extra memory for PDF output out of 42996 (max. 10000000)
 
